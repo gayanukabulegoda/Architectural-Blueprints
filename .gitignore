@@ -28,16 +28,3 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-
-### Gradle ###
-.gradle/
-build/
-
-### Maven ###
-target/
-.idea_modules/
-
-### Node.js ###
-node_modules/
-npm-debug.log
-yarn-error.log
