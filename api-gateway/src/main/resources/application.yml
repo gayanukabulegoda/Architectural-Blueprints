@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    loadbalancer:
+      rule: random
+    gateway:
+      routes:
+        - id: product-service
+          uri: lb://PRODUCT-SERVICE # --or-- http://localhost:8081
+          predicates:
+            - Path=/product-service/**
+        - id: order-service
+          uri: lb://ORDER-SERVICE # --or-- http://localhost:8082
+          predicates:
+            - Path=/order-service/**
+        - id: employee-service
+          uri: lb://EMPLOYEE-SERVICE # --or-- http://localhost:8083
+          predicates:
+            - Path=/employee-service/**
+        - id: inventory-service
+          uri: lb://INVENTORY-SERVICE # --or-- http://localhost:3000
+          predicates:
+            - Path=/inventory-service/**
+        - id: customer-service
+          uri: http://localhost:5000 # --or-- lb://CUSTOMER-SERVICE
+          predicates:
+            - Path=/customer-service/**
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

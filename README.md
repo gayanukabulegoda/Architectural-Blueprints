@@ -87,7 +87,7 @@ Each topic is organized into its dedicated branch, making it easy to focus on th
 
 ## Note
 
-For additional reference and deeper insights, please review the updated Handwritten Note available [here](https://drive.google.com/file/d/1MRqPpGZcFVgPUZzO2i8eH8hSWDl_BLkf/view?usp=sharing).
+For additional reference and deeper insights, please review the updated Handwritten Note available [here](https://drive.google.com/file/d/1HdYutAdRBOt1gprWnbbsZ7Ic_rnamlX8/view?usp=sharing).
 
 ## Usage
 
@@ -122,8 +122,12 @@ This project is licensed under the [MIT License](LICENSE).
   <a href="https://github.com/gayanukabulegoda" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
   <a href="https://git-scm.com/" target="_blank"><img src="https://img.shields.io/badge/Git-100000?style=for-the-badge&logo=git&logoColor=white" alt="Git"></a>
   <a href="https://www.oracle.com/java/" target="_blank"><img src="https://img.shields.io/badge/Java-100000?style=for-the-badge&logo=openjdk&logoColor=white" alt="JDK 21"></a>
+  <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring_Boot-100000?style=for-the-badge&logo=spring-boot&logoColor=white" alt="SpringBoot"></a>
+  <a href="https://nodejs.org/" target="_blank"><img src="https://img.shields.io/badge/Node.js-black?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"></a>
+  <a href="https://expressjs.com/" target="_blank"><img src="https://img.shields.io/badge/Express.js-black?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"></a>
+  <a href="https://flask.palletsprojects.com/" target="_blank"><img src="https://img.shields.io/badge/Flask-black?style=for-the-badge&logo=flask&logoColor=white" alt="Flask"></a>
 </div>
-
+<br>
 <p align="center">
   &copy; 2025 Gayanuka Bulegoda
 </p>
